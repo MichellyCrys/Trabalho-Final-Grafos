@@ -1,0 +1,620 @@
+{
+  "generos": [
+    "EDM",
+    "Hip-Hop/Rap",
+    "Pop",
+    "R&B/Soul"
+  ],
+  "musicas": [
+    {
+      "titulo": "Blood Sweat & Tears",
+      "genero": "EDM",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Save Me",
+      "genero": "EDM",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Best Of Me",
+      "genero": "EDM",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Trivia: Just Dance",
+      "genero": "EDM",
+      "tipo": "Solo (J-Hope)"
+    },
+    {
+      "titulo": "Mic Drop",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Cypher Pt.3",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "UGH!",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "No More Dream",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "We Are Bulletproof Pt.2",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "N.O",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Boy In Luv",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Danger",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "War of Hormone",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Cypher Pt.1",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Cypher Pt.2: Triptych",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Cypher 4",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Outro: Tear",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Attack on Bangtan",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Silver Spoon (Baepsae)",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Ma City",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Run BTS",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Hip Hop Phile",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Spine Breaker",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Jump",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Paldogangsan",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Daechwita",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (Agust D)"
+    },
+    {
+      "titulo": "Agust D",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (Agust D)"
+    },
+    {
+      "titulo": "Give It To Me",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (Agust D)"
+    },
+    {
+      "titulo": "Haegeum",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (Agust D)"
+    },
+    {
+      "titulo": "AMYGDALA",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (Agust D)"
+    },
+    {
+      "titulo": "What do you think?",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (Agust D)"
+    },
+    {
+      "titulo": "Snooze",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (Agust D)"
+    },
+    {
+      "titulo": "Arson",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (J-Hope)"
+    },
+    {
+      "titulo": "Airplane",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (J-Hope)"
+    },
+    {
+      "titulo": "MORE",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (J-Hope)"
+    },
+    {
+      "titulo": "On the Street",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (J-Hope)"
+    },
+    {
+      "titulo": "Neuron",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (J-Hope)"
+    },
+    {
+      "titulo": "Mama",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (J-Hope)"
+    },
+    {
+      "titulo": "Outro: Ego",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (J-Hope)"
+    },
+    {
+      "titulo": "Set Me Free Pt.2",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (Jimin)"
+    },
+    {
+      "titulo": "Intro: Persona",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "Still Life",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "All Day",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "Forever Rain",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "Joke",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "Do You",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "Interlude: Shadow",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (Suga)"
+    },
+    {
+      "titulo": "First Love",
+      "genero": "Hip-Hop/Rap",
+      "tipo": "Solo (Suga)"
+    },
+    {
+      "titulo": "Dynamite",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Butter",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Boy With Luv",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Life Goes On",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Permission to Dance",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "DNA",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Fake Love",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Idol",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Spring Day",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Fire",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Dope",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "I Need U",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Run",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Not Today",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Black Swan",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "ON",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Stay Gold",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Film Out",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Yet To Come",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Take Two",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Make It Right",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Mikrokosmos",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Anpanman",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Go Go",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Pied Piper",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Dimple",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "21st Century Girls",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Am I Wrong",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Lights",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "Heartbeat",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "For Youth",
+      "genero": "Pop",
+      "tipo": "Grupo"
+    },
+    {
+      "titulo": "People Pt.2",
+      "genero": "Pop",
+      "tipo": "Solo (Agust D)"
+    },
+    {
+      "titulo": "Daydream",
+      "genero": "Pop",
+      "tipo": "Solo (J-Hope)"
+    },
+    {
+      "titulo": "= (Equal Sign)",
+      "genero": "Pop",
+      "tipo": "Solo (J-Hope)"
+    },
+    {
+      "titulo": "The Astronaut",
+      "genero": "Pop",
+      "tipo": "Solo (Jin)"
+    },
+    {
+      "titulo": "Running Wild",
+      "genero": "Pop",
+      "tipo": "Solo (Jin)"
+    },
+    {
+      "titulo": "I'll Be There",
+      "genero": "Pop",
+      "tipo": "Solo (Jin)"
+    },
+    {
+      "titulo": "Super Tuna",
+      "genero": "Pop",
+      "tipo": "Solo (Jin)"
+    },
+    {
+      "titulo": "Epiphany",
+      "genero": "Pop",
+      "tipo": "Solo (Jin)"
+    },
+    {
+      "titulo": "Awake",
+      "genero": "Pop",
+      "tipo": "Solo (Jin)"
+    },
+    {
+      "titulo": "Moon",
+      "genero": "Pop",
+      "tipo": "Solo (Jin)"
+    },
+    {
+      "titulo": "Abyss",
+      "genero": "Pop",
+      "tipo": "Solo (Jin)"
+    },
+    {
+      "titulo": "Like Crazy",
+      "genero": "Pop",
+      "tipo": "Solo (Jimin)"
+    },
+    {
+      "titulo": "Who",
+      "genero": "Pop",
+      "tipo": "Solo (Jimin)"
+    },
+    {
+      "titulo": "Smeraldo Garden Marching Band",
+      "genero": "Pop",
+      "tipo": "Solo (Jimin)"
+    },
+    {
+      "titulo": "Filter",
+      "genero": "Pop",
+      "tipo": "Solo (Jimin)"
+    },
+    {
+      "titulo": "Closer Than This",
+      "genero": "Pop",
+      "tipo": "Solo (Jimin)"
+    },
+    {
+      "titulo": "Seven",
+      "genero": "Pop",
+      "tipo": "Solo (Jungkook)"
+    },
+    {
+      "titulo": "3D",
+      "genero": "Pop",
+      "tipo": "Solo (Jungkook)"
+    },
+    {
+      "titulo": "Standing Next to You",
+      "genero": "Pop",
+      "tipo": "Solo (Jungkook)"
+    },
+    {
+      "titulo": "Yes or No",
+      "genero": "Pop",
+      "tipo": "Solo (Jungkook)"
+    },
+    {
+      "titulo": "Hate You",
+      "genero": "Pop",
+      "tipo": "Solo (Jungkook)"
+    },
+    {
+      "titulo": "Euphoria",
+      "genero": "Pop",
+      "tipo": "Solo (Jungkook)"
+    },
+    {
+      "titulo": "Stay Alive",
+      "genero": "Pop",
+      "tipo": "Solo (Jungkook)"
+    },
+    {
+      "titulo": "Wild Flower",
+      "genero": "Pop",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "Lost!",
+      "genero": "Pop",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "Come Back to Me",
+      "genero": "Pop",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "Trivia: Seesaw",
+      "genero": "Pop",
+      "tipo": "Solo (Suga)"
+    },
+    {
+      "titulo": "Inner Child",
+      "genero": "Pop",
+      "tipo": "Solo (V)"
+    },
+    {
+      "titulo": "Sweet Night",
+      "genero": "Pop",
+      "tipo": "Solo (V)"
+    },
+    {
+      "titulo": "Christmas Tree",
+      "genero": "Pop",
+      "tipo": "Solo (V)"
+    },
+    {
+      "titulo": "People",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (Agust D)"
+    },
+    {
+      "titulo": "Singularity",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (V)"
+    },
+    {
+      "titulo": "Lie",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (Jimin)"
+    },
+    {
+      "titulo": "Serendipity",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (Jimin)"
+    },
+    {
+      "titulo": "Begin",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (Jungkook)"
+    },
+    {
+      "titulo": "My Time",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (Jungkook)"
+    },
+    {
+      "titulo": "Closer",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "Moonchild",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (RM)"
+    },
+    {
+      "titulo": "Love Me Again",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (V)"
+    },
+    {
+      "titulo": "Slow Dancing",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (V)"
+    },
+    {
+      "titulo": "Rainy Days",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (V)"
+    },
+    {
+      "titulo": "Blue",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (V)"
+    },
+    {
+      "titulo": "Stigma",
+      "genero": "R&B/Soul",
+      "tipo": "Solo (V)"
+    }
+  ]
+}

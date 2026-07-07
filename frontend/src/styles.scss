@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+:root {
+  --bts-purple-primary: #8C52FF;
+  --bts-purple-dark: #5E35B1;
+  --bts-purple-light: #D1B3FF;
+  --bts-accent-amber: #FFC107;
+
+  --bts-bg-main: #F8F9FA;
+  --bts-bg-card: #FFFFFF;
+  --bts-text-main: #212121;
+  --bts-text-muted: #757575;
+}
+
+body {
+  background-color: var(--bts-bg-main);
+  color: var(--bts-text-main);
+}
+
+.mat-mdc-card {
+  background-color: var(--bts-bg-card) !important;
+  color: var(--bts-text-main) !important;
+}
+
+.mat-mdc-card-subtitle, .mat-mdc-list-item-line {
+  color: var(--bts-text-muted) !important;
+}

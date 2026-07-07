@@ -1,0 +1,97 @@
+<div class="dashboard-container">
+  <header class="app-header">
+    <h1>Mitigação de Viés Musical via Redes Complexas</h1>
+    <p>Engine de Recomendação Topológica para a Discografia do BTS</p>
+  </header>
+
+  <div class="grid-layout">
+    <mat-card class="control-card">
+      <mat-card-header>
+        <mat-card-title>Configuração do Perfil (Cold-Start)</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <form #userForm="ngForm" (ngSubmit)="salvarUsuario(userForm.value); userForm.reset()" class="user-form">
+          <mat-form-field appearance="outline">
+            <mat-label>Nome do Ouvinte</mat-label>
+            <input matInput id="nome" name="nome" aria-label="Nome do Ouvinte" ngModel required placeholder="Ex: User_Carlos" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Idade</mat-label>
+            <input matInput type="number" id="idade" name="idade" aria-label="Idade do Ouvinte" ngModel required />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Gênero de Conforto (Viés)</mat-label>
+            <mat-select id="genero_musical_preferivel" name="genero_musical_preferivel" aria-label="Gênero Musical Preferível" ngModel required>
+              <mat-option value="Hip-Hop/Rap">Hip-Hop / Rap</mat-option>
+              <mat-option value="Pop">Pop</mat-option>
+              <mat-option value="R&B/Soul">R&B / Soul</mat-option>
+              <mat-option value="EDM">EDM</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <button mat-raised-button color="primary" type="submit" [disabled]="!userForm.valid">
+            Cadastrar Perfil
+          </button>
+        </form>
+
+        <mat-divider></mat-divider>
+
+        <h3>Perfis Cadastrados</h3>
+        <mat-list class="scrollable-list">
+          <mat-list-item *ngFor="let user of usuarios()">
+            <mat-icon matListItemIcon>person</mat-icon>
+            <span matListItemTitle>{{ user.nome }} ({{ user.idade }} anos)</span>
+            <span matListItemLine>Foco original: {{ user.genero_musical_preferivel }}</span>
+            <div matListItemMeta>
+              <button mat-icon-button color="accent" (click)="testarMitigacao(user)" title="Rodar Random Walk">
+                <mat-icon>psychology</mat-icon>
+              </button>
+              <button mat-icon-button color="warn" (click)="deletarUsuario(user.id!)">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </div>
+          </mat-list-item>
+        </mat-list>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="results-card">
+      <mat-card-header>
+        <mat-card-title>Resultado do Random Walk com Restart</mat-card-title>
+        <mat-card-subtitle>Pontes topológicas baseadas em textura sonora neutra</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-progress-bar *ngIf="carregando()" mode="indeterminate"></mat-progress-bar>
+
+        <div *ngIf="usuarioSelecionado()" class="execution-info">
+          <p>Análise estocástica aplicada para: <strong>{{ usuarioSelecionado()?.nome }}</strong></p>
+        </div>
+
+        <mat-list class="scrollable-list" *ngIf="ranking().length > 0; else emptyState">
+          <mat-list-item class="ranking-item" *ngFor="let rec of ranking(); let i = index">
+            <div class="badge" matListItemIcon>{{ i + 1 }}º</div>
+            <span matListItemTitle class="track-title">{{ rec.faixa }}</span>
+            <span matListItemLine>Frequência absoluta estacionária: {{ rec.score_topologico }} visitas</span>
+          </mat-list-item>
+        </mat-list>
+
+        <ng-template #emptyState>
+          <div class="empty-state">
+            <mat-icon>bubble_chart</mat-icon>
+            <p>Selecione o ícone de engrenagem cerebral (<mat-icon class="inline-icon">psychology</mat-icon>) de um usuário para infiltrar e quebrar a bolha algorítmica.</p>
+          </div>
+        </ng-template>
+
+        <div *ngIf="usuarioSelecionado() && ranking().length > 0">
+          <mat-divider style="margin: 24px 0;"></mat-divider>
+          <div class="graph-section">
+            <h4>Ponte Topológica Criada (HIN)</h4>
+            <div #cyGraph class="cy-graph-container"></div>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
